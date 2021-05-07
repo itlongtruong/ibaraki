@@ -32,24 +32,22 @@
     <div class="row justify-content-center">
         <div class="col-md-4 heading-section ftco-animate">
             <div id="form-login">
-                <div class="form-group row">
-                    <label for="email_address" class="col-md-4 col-form-label text-md-right">ID</label>
+                <div class="form-group row col-login-id">
+                    <label for="id" class="col-md-3 col-form-label text-md-right">ID</label>
                     <div class="col-md-6">
-                        <input type="text" id="id" class="form-control" name="id" required autofocus>
+                        <input type="text" id="id" class="form-control input-id border-input" name="id" required autofocus>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="password" class="col-md-4 col-form-label text-md-right">パスワード</label>
+                <div class="form-group row col-login-pass">
+                    <label for="pass" class="col-md-3 col-form-label text-md-right">パスワード</label>
                     <div class="col-md-6">
-                        <input type="password" id="pass" class="form-control" name="pass" required>
+                        <input type="password" id="pass" class="form-control input-pass border-input" name="pass" required>
                     </div>
                 </div>
             </div>
             </div>
         </div>
-    </div>    
-
-    <div class="row justify-content-center">
+        <div class="row justify-content-center">
         <div class="col-md-3 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
                 <button type="submit" class="btn btn-primary">ログイン</button>
@@ -58,14 +56,19 @@
                 <button type="submit" class="btn btn-outline-primary">キャンセル</button>
             </div>
         </div>
-    </div>
+        </div>
+        <div class="row justify-content-center pb-1 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+            <p class="regis regis-forgot"><a href="">ID・パスワードを忘れた方はこちら</a></p>
+            </div>
+        </div>
+    </div>    
+
+    
     </form>
 
-    <div class="row justify-content-center pb-1 mb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-        <p class="regis regis-forgot"><a href="">ID・パスワードを忘れた方はこちら</a></p>
-        </div>
-    </div>
+    
+    
 
 </div>
 @endsection

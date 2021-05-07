@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-5 heading-section ftco-animate">
             <div id="form-confirm">
             <p>入力内容表示</p>   
@@ -20,13 +20,13 @@
         </div>
     </div>  
 
-    <div class="row justify-content-center">
-        <div class="col-md-3 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+    <div class="row justify-content-center pb-2 mb-3">
+        <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
+            <div class="btn-group " role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">戻る</button>
             </div>
-            <div class="btn-group btn-login-cancel " role="group" aria-label="Basic outlined example">
-                <button type="button" class="btn btn-outline-primary">申請する</button>
+            <div class="btn-group " role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger">申請する</button>
             </div>
         </div>
     </div>

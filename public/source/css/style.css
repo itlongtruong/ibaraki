@@ -90,6 +90,67 @@ border: 1px solid black;
     border: 1px solid black; 
 }
 
+.col-login-id{
+    padding-top: 20px;
+    padding-left: 24px;
+}
+
+.col-login-pass{
+    padding-top: 10px;
+    padding-left: 24px;
+}
+
+.input-id{
+    height: 30px;
+    width: 250px;
+}
+.input-pass{
+    height: 30px;
+    width: 250px;
+}
+
+.height-width-input{
+    height: 27px;
+    width: 180px;
+}
+.size-text-ex{
+    font-size: 12px;
+}
+.color-long{
+    background-color: #E8E6E6;
+}
+
+
+#attachment label {
+    /* ボタン部分の見た目（任意） */
+    display: inline-block;
+    position: relative;
+    background: #E8E6E6;
+    color: black;
+    font-size: 11px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    transition: all 0.3s;
+    border: 1px solid black;
+   }
+   #attachment label:hover {
+    background: #888;
+    transition: all 0.4s;
+   }
+   #attachment label input {
+    /* 今回のポイント */
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+   }
+   #attachment .filename {
+    font-weight: 16px;
+    margin:0 0 0 10px;
+   }
+
 @media only screen and (max-width: 768px){
     .navbar-brand{
         margin: 0px;
@@ -99,4 +160,16 @@ border: 1px solid black;
        text-align: right;
       
     }
+
+    .col-login-id{
+        padding-top: 0px;
+        padding-left: 24px;
+    }
+    
+    .col-login-pass{
+        padding-top: 0px;
+        padding-left: 24px;
+    }
+
+    
 }

@@ -12,22 +12,22 @@
         </div>
     </div>
     
-    <div class="row justify-content-center">
+    <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-8 heading-section ftco-animate">
             <span>※日中連絡が確実に取れる責任者の役職名にチェックをし，詳細を下欄に記入してください。</span>
         </div> 
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary">戻る</button>
+                <button type="button" class="btn btn-secondary">戻る</button>
             </div>
             <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">一時保存</button>
             </div>
-            <div class="btn-group btn-login-cancel " role="group" aria-label="Basic outlined example">
-                <button type="button"  class="btn btn-outline-primary">次へ</button>
+            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger">次へ</button>
             </div>
         </div>
     </div>
