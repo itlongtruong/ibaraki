@@ -1,0 +1,102 @@
+.container-fluid{
+    border-bottom: solid 5px #2D3793;
+}
+
+.navbar-brand{
+    margin: 25px;
+}
+.top-wrap{
+    margin-top: 40px; 
+   text-align: right;
+}
+
+.heading-section h3{
+    margin-top: 40px;
+   
+}
+.heading-section> h3{
+    font-weight: bold;
+}
+
+.heading-section> p{
+    margin-top: 15px;
+}
+.rotate{
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.btn-primary{
+    background-color: #283991;
+}
+
+.heading-section h4{
+    margin-top: 40px;
+   
+}
+.heading-section> h4{
+    font-weight: bold;
+}
+
+
+.regis> a{
+    font-weight: bold;
+    color: black;
+    text-decoration:none;
+}
+#form-login{
+    background-color:#E8E6E6;
+    height: 120px;
+}
+
+.btn-register-login{
+    margin-top: 119px;
+}
+
+.btn-login-cancel{
+    margin-top: 20px;
+}
+
+.regis-forgot{
+    padding-top: 20px;
+}
+
+.line-form{
+    border-bottom: solid 4px #2D3793;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#form-confirm{
+    margin-top: 20px;
+    background-color:#D1D2D4;
+    height: 260px;
+}
+#form-confirm>p{
+    text-align: center;
+    padding-top: 120px;
+    font-weight: bold;
+}
+
+.footer{
+    font-size: 12px;
+}
+
+#sort2{
+border: 1px solid black; 
+}
+
+.border-input{
+    border: 1px solid black; 
+}
+
+@media only screen and (max-width: 768px){
+    .navbar-brand{
+        margin: 0px;
+    }
+    .top-wrap{
+        margin-top: 10px;
+       text-align: right;
+      
+    }
+}
