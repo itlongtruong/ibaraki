@@ -22,8 +22,7 @@
     margin-top: 15px;
 }
 .rotate{
-    font-size: 80px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .btn-primary{
@@ -46,15 +45,42 @@
 }
 #form-login{
     background-color:#E8E6E6;
-    height: 120px;
+    /* height: 120px; */
+    padding: 30px 40px;
+}
+
+#form-login input{
+    height: 30px;
+    border-radius: 0px;
+    border-color: #000;
+}
+
+#form-login .col-form-label{
+    line-height: 1.2;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .btn-register-login{
-    margin-top: 119px;
+    margin-top: 80px;
 }
 
-.btn-login-cancel{
-    margin-top: 20px;
+.btn-register-login a{
+    padding: 10px 15px;
+}
+
+
+
+.btn-common{
+    padding: 0px 5px;
+}
+
+.btn-common button{ 
+    font-size: 13px;
+    padding: 4px 20px;
+    width: 110px;
+    font-weight: 600;
 }
 
 .regis-forgot{
@@ -102,16 +128,54 @@ border: 1px solid black;
 
 .input-id{
     height: 30px;
-    width: 250px;
+    /* width: 250px; */
 }
 .input-pass{
     height: 30px;
-    width: 250px;
+    /* width: 250px; */
 }
+
+.table-register tr{
+    height: 60px;
+}
+
+.table-register tr td:first-child{
+   background: #ccc;
+   font-weight: 600;
+   width: 250px;
+}
+
+.table-register tr td input{
+    background: #ccc;
+ }
+
+ .table-register td span.required{
+    background-color: #ff0000;
+    padding: 3px 5px;
+    color: #fff;
+    /* font-weight: normal; */
+}
+
+.table-register tr td input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #000 !important;
+
+ }
+
+
+.table-register td{
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+
 
 .height-width-input{
     height: 27px;
     width: 180px;
+    border-radius: 0px;
+    border-color: #000;
 }
 .size-text-ex{
     font-size: 12px;
@@ -119,6 +183,31 @@ border: 1px solid black;
 .color-long{
     background-color: #E8E6E6;
 }
+
+.pr-10{
+    padding-right: 10px;
+}
+.pr-3{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.width-40{
+    width: 40px;
+}
+
+.width-70{
+    width: 70px;
+}
+
+.width-90{
+    width: 90px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 
 
 #attachment label {

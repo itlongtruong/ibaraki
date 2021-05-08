@@ -11,7 +11,7 @@
         </div>
 
         <div class="col-md-7 heading-section text-center ftco-animate">
-        <div class="rotate">&#8768;</div>
+        <div class="rotate"><img src="source/image/rotate.png" alt=""></div>
         </div>
         <div class="col-md-7 heading-section text-center ftco-animate">
             <div class="btn-group btn-register-login">

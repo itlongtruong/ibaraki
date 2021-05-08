@@ -30,29 +30,28 @@
     <form action="{{ asset ('/login')}}" method="post">
      @csrf
     <div class="row justify-content-center">
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-md-5 col-sm-6 heading-section ftco-animate">
             <div id="form-login">
-                <div class="form-group row col-login-id">
-                    <label for="id" class="col-md-3 col-form-label text-md-right">ID</label>
-                    <div class="col-md-6">
-                        <input type="text" id="id" class="form-control input-id border-input" name="id" required autofocus>
+                <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">ID</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control" name="id">
                     </div>
                 </div>
-                <div class="form-group row col-login-pass">
-                    <label for="pass" class="col-md-3 col-form-label text-md-right">パスワード</label>
-                    <div class="col-md-6">
-                        <input type="password" id="pass" class="form-control input-pass border-input" name="pass" required>
+                <div class="row">
+                    <label for="inputPassword" class="col-sm-4 col-form-label">パスワード</label>
+                    <div class="col-sm-8">
+                    <input type="password" class="form-control" name="pass">
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <div class="row justify-content-center">
-        <div class="col-md-3 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+        <div class="col-md-4 col-sm-6 heading-section text-center ftco-animate mt-4" class="btn-login">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="submit" class="btn btn-primary">ログイン</button>
             </div>
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic outlined example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
                 <button type="submit" class="btn btn-outline-primary">キャンセル</button>
             </div>
         </div>

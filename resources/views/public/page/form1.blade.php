@@ -7,49 +7,85 @@
         </div>
     </div>
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-md-6 heading-section ftco-animate">
             <div class="line-form">1．申請者等</div>
             <span>以下のフォームに必要事項をご入力ください。</span>
         </div>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-md-5 heading-section ftco-animate">
+        <div class="col-md-6 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
-        <table id="sort2" class="grid table table-bordered table-sortable">
+        <table id="sort2" class="grid table table-bordered table-sortable table-register">
             <tbody>
                 <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="11">団体名
+                    <td data-id="11">
+                        <div class="row">
+                            <div class="col-sm-9">団体名</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div>
                     </td>
-
                     <td><input type="text" value="" class="form-control border-input height-width-input">
                     <span class="size-text-ex">例）　〇〇団体</span>
                     </td>
 
                 </tr>
                 <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="22">発足年月日</td>
-                    <td><input type="text" value="" class="form-control border-input">
-                    <span class="size-text-ex">例）　info@example.com</span>
+                    <td data-id="22">
+                        <div class="row">
+                            <div class="col-sm-9">発足年月日</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div></td>
+                    <td>
+                    <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
+                        <span class="size-text-ex pr-3">年</span>
+                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
+                        <span class="size-text-ex pr-3">月</span>
+                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
+                        <span class="size-text-ex pr-3">日</span>
                     </td>
                   
                 </tr>
                 <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="33">郵便番号</td>
-                    <td><input type="text" value="" class="form-control border-input"></td>
-                </tr>
-                <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="44">住所</td>
-                    <td><input type="text"3 value="" class="form-control border-input height-width-input">
-                    <span class="size-text-ex">8 文字以上の半角英数字</span>
+                    <td data-id="33">
+                    <div class="row">
+                            <div class="col-sm-9">郵便番号</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div></td>
+                    <td>
+                       
+                        <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
+                        <span class="size-text-ex pr-10">-</span>
+                        <input type="email"  value="" class="form-control border-input height-width-input width-90 inline-block">
+            
                     </td>
-                </tr> 
-                <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="55">構成員</td>
-                    <td><input type="text" value="" class="form-control border-input"></td>
                 </tr>
                 <tr>
-                    <td class="p-3 mb-2 bg-light text-black" data-id="66">電話番号</td>
+                    <td data-id="44">
+                        <div class="row">
+                            <div class="col-sm-9">住所</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div>
+                    </td>
+                    <td><input type="password" value="" class="form-control border-input height-width-input">
+        
+                    </td>
+                </tr>
+                <tr>
+                    <td data-id="55">
+                    <div class="row">
+                            <div class="col-sm-9">構成員</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div></td>
+                    <td><input type="password" value="" class="form-control border-input height-width-input inline-block">
+                    <span class="size-text-ex">名</span></td>
+                </tr>
+                <tr>
+                    <td data-id="66">
+                    <div class="row">
+                            <div class="col-sm-9">電話番号</div>
+                            <div class="col-sm-3"><span class="required">必須</span></div>
+                        </div></td>
                     <td><input type="text" value="" class="form-control border-input height-width-input">
                     <span class="size-text-ex">※半角数字ハイフンなし</span>
                     </td>
@@ -60,12 +96,12 @@
         </div>
         </div>
     </div>
-    <div class="row justify-content-center pb-2 mb-3">
+    <div class="row justify-content-center pb-2 mb-3 mt-3">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">一時保存</button>
             </div>
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-danger">次へ</button>
             </div>
         </div>
