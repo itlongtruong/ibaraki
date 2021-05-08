@@ -16,13 +16,13 @@
     <div class="row justify-content-center">
         <div class="col-md-6 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
-        <table id="sort2" class="grid table table-bordered table-sortable table-register">
+        <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-1 table-form-common">
             <tbody>
                 <tr>
                     <td data-id="11">
                         <div class="row">
-                            <div class="col-sm-9">団体名</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">団体名</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td><input type="text" value="" class="form-control border-input height-width-input">
@@ -33,8 +33,8 @@
                 <tr>
                     <td data-id="22">
                         <div class="row">
-                            <div class="col-sm-9">発足年月日</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">発足年月日</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
@@ -49,8 +49,8 @@
                 <tr>
                     <td data-id="33">
                     <div class="row">
-                            <div class="col-sm-9">郵便番号</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">郵便番号</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                        
@@ -63,8 +63,8 @@
                 <tr>
                     <td data-id="44">
                         <div class="row">
-                            <div class="col-sm-9">住所</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">住所</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td><input type="password" value="" class="form-control border-input height-width-input">
@@ -74,17 +74,17 @@
                 <tr>
                     <td data-id="55">
                     <div class="row">
-                            <div class="col-sm-9">構成員</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">構成員</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
-                    <td><input type="password" value="" class="form-control border-input height-width-input inline-block">
-                    <span class="size-text-ex">名</span></td>
+                    <td><input type="password" value="" class="form-control border-input height-width-input width-70 inline-block">
+                    <span class="size-text-ex pr-3">名</span></td>
                 </tr>
                 <tr>
                     <td data-id="66">
                     <div class="row">
-                            <div class="col-sm-9">電話番号</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">電話番号</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td><input type="text" value="" class="form-control border-input height-width-input">
                     <span class="size-text-ex">※半角数字ハイフンなし</span>

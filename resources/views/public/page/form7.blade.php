@@ -7,13 +7,13 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-md-5 heading-section ftco-animate">
             <div class="line-form">7．申請内容確認</div>
         </div>
     </div>
 
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-5 heading-section ftco-animate">
+        <div class="col-md-6 heading-section ftco-animate">
             <div id="form-confirm">
             <p>入力内容表示</p>   
             </div>
@@ -21,11 +21,11 @@
     </div>  
 
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group " role="group" aria-label="Basic example">
+        <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">戻る</button>
             </div>
-            <div class="btn-group " role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-danger">申請する</button>
             </div>
         </div>

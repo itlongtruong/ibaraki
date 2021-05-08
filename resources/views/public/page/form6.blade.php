@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-md-6 heading-section ftco-animate">
             <div class="line-form">6．申請対象事業　</div>
             <span>※該当する事業１つに○印を記入して下さい。</span>
         </div>
@@ -15,9 +15,9 @@
     </div>
 
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-3 heading-section ftco-animate">
+        <div class="col-md-4 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
-        <table id="sort2" class="grid table table-bordered table-sortable">
+        <table id="sort2" class="grid table table-bordered table-sortable table-form-6">
             <tbody>
                 <tr>
                     <td data-id="11"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -58,18 +58,16 @@
         </div>
     </div>
 
-
-
     <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-secondary">戻る</button>
             </div>
-            <div class="btn-group btn-login-cancel" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">一時保存</button>
             </div>
-            <div class="btn-group btn-login-cancel " role="group" aria-label="Basic outlined example">
-                <button type="button" class="btn btn-danger">登録内容を確認する</button>
+            <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-danger width-170">登録内容を確認する</button>
             </div>
         </div>
     </div>

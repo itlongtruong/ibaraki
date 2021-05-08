@@ -1,10 +1,10 @@
 <div class="wrap">
 	<div class="container-fluid">
 		<div class="row justify-content-between">
-			<div class="col-md-2 mb-md-0 mb-4 d-flex align-items-center">
+			<div class="col-md-2 col-sm-12 mb-md-0 mb-4 d-flex align-items-center">
 				<a class="navbar-brand" href="{{ asset ('/')}}"><img src="source/image/icons/logo-2.png" alt=""></a>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-12">
 				<div class="row">
 					<div class="col">
 						<div class="top-wrap d-flex">
