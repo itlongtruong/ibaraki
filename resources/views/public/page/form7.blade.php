@@ -11,7 +11,6 @@
             <div class="line-form">7．申請内容確認</div>
         </div>
     </div>
-
     <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-6 heading-section ftco-animate">
             <div id="form-confirm">
@@ -30,6 +29,5 @@
             </div>
         </div>
     </div>
-         
 </div>
 @endsection

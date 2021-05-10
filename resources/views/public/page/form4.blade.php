@@ -83,7 +83,7 @@
                 </table>
             </div>
         </div>
-
+        
         <div class="col-md-6 heading-section ftco-animate">
             <div class="table-responsive col-md-12">
                 <table id="sort2" class="grid table table-bordered table-sortable table-form-4 table-register">
@@ -149,7 +149,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">

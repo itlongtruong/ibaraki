@@ -11,7 +11,6 @@
             <div class="line-form">5．添付ファイル</div>
             <span>以下のフォームに必要事項をご入力ください。</span>
         </div>
-        
     </div>
 
     <div class="row justify-content-center pb-5 mb-3">
@@ -22,10 +21,10 @@
                 <tr>
                     <td data-id="11">
                         <div class="row">
-                           <div class="col-sm-9">（１）助成対象事業の実施計画（付表 1）
+                           <div class="col-sm-9 col-7">（１）助成対象事業の実施計画（付表 1）
                                <span class="size-text-ex">※ワード形式のみ</span>
                            </div>
-                           <div class="col-sm-3"><span class="required">必須</span></div>
+                           <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td>
@@ -38,10 +37,10 @@
                 </tr>
                 <tr>
                     <td data-id="22"> <div class="row">
-                            <div class="col-sm-9">（２）助成対象事業収支予算書（付表 2）
+                            <div class="col-sm-9 col-7">（２）助成対象事業収支予算書（付表 2）
                             <span class="size-text-ex">※エクセル形式のみ</span>
                             </div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
@@ -52,10 +51,10 @@
                 </tr>
                 <tr>
                     <td data-id="33"> <div class="row">
-                            <div class="col-sm-9">（３）過去の決算書
+                            <div class="col-sm-9 col-7">（３）過去の決算書
                             <span class="size-text-ex">※PDF 形式のみ</span>
                             </div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
@@ -66,10 +65,10 @@
                 </tr>
                 <tr>
                     <td data-id="44"> <div class="row">
-                            <div class="col-sm-9">（４）団体の会則及び会員名簿
+                            <div class="col-sm-9 col-7">（４）団体の会則及び会員名簿
                             <span class="size-text-ex">※PDF 形式のみ</span>
                             </div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
@@ -80,10 +79,10 @@
                 </tr>
                 <tr>
                     <td data-id="55"> <div class="row">
-                            <div class="col-sm-9">（５）その他の参考書類
+                            <div class="col-sm-9 col-7">（５）その他の参考書類
                             <span class="size-text-ex">※JPG 形式のみ</span>
                             </div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
@@ -105,9 +104,7 @@
         </div>
         </div>
     </div>
-
-
-
+    
     <div class="row justify-content-center pb-2 mb-3">
         <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-common" role="group" aria-label="Basic example">

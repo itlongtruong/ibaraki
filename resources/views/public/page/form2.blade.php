@@ -105,6 +105,7 @@
                 </table>
             </div>
         </div>
+        
         <div class="col-md-4 heading-section ftco-animate">
             <div class="table-responsive col-md-12">
                 <table id="sort2" class="grid table table-bordered table-sortable table-register">

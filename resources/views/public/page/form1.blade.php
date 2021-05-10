@@ -28,7 +28,6 @@
                     <td><input type="text" value="" class="form-control border-input height-width-input">
                     <span class="size-text-ex">例）　〇〇団体</span>
                     </td>
-
                 </tr>
                 <tr>
                     <td data-id="22">
@@ -90,12 +89,12 @@
                     <span class="size-text-ex">※半角数字ハイフンなし</span>
                     </td>
                 </tr>
-
             </tbody>
         </table>
         </div>
         </div>
     </div>
+    
     <div class="row justify-content-center pb-2 mb-3 mt-3">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-common" role="group" aria-label="Basic example">

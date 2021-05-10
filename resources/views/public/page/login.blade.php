@@ -15,7 +15,6 @@
         </div>
     </div>
 
-
     <div class="row justify-content-center">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
             @if (\Session::has('danger'))
@@ -26,48 +25,41 @@
         </div>
     </div>
 
-        
     <form action="{{ asset ('/login')}}" method="post">
      @csrf
-    <div class="row justify-content-center">
-        <div class="col-md-5 col-sm-6 heading-section ftco-animate">
-            <div id="form-login">
-                <div class="mb-3 row">
-                    <label for="staticEmail" class="col-sm-4 col-form-label">ID</label>
-                    <div class="col-sm-8">
-                    <input type="text" class="form-control" name="id">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="inputPassword" class="col-sm-4 col-form-label">パスワード</label>
-                    <div class="col-sm-8">
-                    <input type="password" class="form-control" name="pass">
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row justify-content-center">
-        <div class="col-md-4 col-sm-6 heading-section text-center ftco-animate mt-4" class="btn-login">
-            <div class="btn-group btn-common" role="group" aria-label="Basic example">
-                <button type="submit" class="btn btn-primary">ログイン</button>
+            <div class="col-md-5 col-sm-6 heading-section ftco-animate">
+                <div id="form-login">
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-4 col-form-label">ID</label>
+                        <div class="col-sm-8">
+                        <input type="text" class="form-control" name="id">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">パスワード</label>
+                        <div class="col-sm-8">
+                        <input type="password" class="form-control" name="pass">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
-                <button type="submit" class="btn btn-outline-primary">キャンセル</button>
+            <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 heading-section text-center ftco-animate mt-4" class="btn-login">
+                <div class="btn-group btn-common" role="group" aria-label="Basic example">
+                    <button type="submit" class="btn btn-primary">ログイン</button>
+                </div>
+                <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
+                    <button type="submit" class="btn btn-outline-primary">キャンセル</button>
+                </div>
             </div>
-        </div>
-        </div>
-        <div class="row justify-content-center pb-1 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-            <p class="regis regis-forgot"><a href="">ID・パスワードを忘れた方はこちら</a></p>
             </div>
-        </div>
-    </div>    
-
-    
+            <div class="row justify-content-center pb-1 mb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                <p class="regis regis-forgot"><a href="">ID・パスワードを忘れた方はこちら</a></p>
+                </div>
+            </div>
+        </div>    
     </form>
-
-    
-    
-
 </div>
 @endsection
