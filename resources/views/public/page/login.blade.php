@@ -46,10 +46,10 @@
             </div>
             <div class="row justify-content-center">
             <div class="col-md-4 col-sm-6 heading-section text-center ftco-animate mt-4" class="btn-login">
-                <div class="btn-group btn-common" role="group" aria-label="Basic example">
+                <div class="btn-group btn-common" role="group">
                     <button type="submit" class="btn btn-primary">ログイン</button>
                 </div>
-                <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
+                <div class="btn-group btn-common" role="group">
                     <button type="submit" class="btn btn-outline-primary">キャンセル</button>
                 </div>
             </div>

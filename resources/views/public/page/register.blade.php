@@ -84,7 +84,7 @@
     </div>
     <div class="row justify-content-center pb-1 mb-3 mt-3">
         <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-common" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common" role="group">
                 <button type="button" class="btn btn-primary">新規登録</button>
             </div>
         </div>
