@@ -14,7 +14,7 @@
         
     </div>
 
-    <div class="row justify-content-center pb-2 mb-3">
+    <div class="row justify-content-center pb-5 mb-3">
         <div class="col-md-11 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
         <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-5">

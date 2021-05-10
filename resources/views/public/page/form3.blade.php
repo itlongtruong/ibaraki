@@ -22,8 +22,8 @@
                 <tr>
                     <td data-id="11">
                         <div class="row">
-                            <div class="col-sm-9">住所</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">住所</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td><input type="text" value="" class="form-control border-input height-width-input">
@@ -34,8 +34,8 @@
                 <tr>
                     <td data-id="22">
                         <div class="row">
-                            <div class="col-sm-9">E-mail アドレス</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">E-mail アドレス</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
@@ -50,8 +50,8 @@
                 <tr>
                     <td data-id="33">
                     <div class="row">
-                            <div class="col-sm-9">電話番号</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">電話番号</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                        
@@ -64,8 +64,8 @@
                 <tr>
                     <td data-id="44">
                         <div class="row">
-                            <div class="col-sm-9">FAX</div>
-                            <div class="col-sm-3"><span class="required">必須</span></div>
+                            <div class="col-sm-9 col-7">FAX</div>
+                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td><input type="password" value="" class="form-control border-input height-width-input">

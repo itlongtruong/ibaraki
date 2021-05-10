@@ -14,7 +14,7 @@
         
     </div>
 
-    <div class="row justify-content-center pb-2 mb-3">
+    <div class="row justify-content-center pb-5 mb-3">
         <div class="col-md-4 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
         <table id="sort2" class="grid table table-bordered table-sortable table-form-6">
@@ -58,15 +58,15 @@
         </div>
     </div>
 
-    <div class="row justify-content-center pb-2 mb-3">
+    <div class="row justify-content-center pb-2 mb-3 table-form-6">
         <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
-            <div class="btn-group btn-common" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common width-105" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-secondary">戻る</button>
             </div>
-            <div class="btn-group btn-common" role="group" aria-label="Basic example">
+            <div class="btn-group btn-common width-105" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">一時保存</button>
             </div>
-            <div class="btn-group btn-common" role="group" aria-label="Basic outlined example">
+            <div class="btn-group btn-common width-169" role="group" aria-label="Basic outlined example">
                 <button type="button" class="btn btn-danger width-170">登録内容を確認する</button>
             </div>
         </div>

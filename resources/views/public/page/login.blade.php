@@ -17,7 +17,7 @@
 
 
     <div class="row justify-content-center">
-        <div class="col-md-4 heading-section text-center ftco-animate" class="btn-login">
+        <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
             @if (\Session::has('danger'))
             <div class="alert alert-danger alert-dismissible fade show">
                 {{ \Session::get('danger') }}
