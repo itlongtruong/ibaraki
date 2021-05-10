@@ -55,9 +55,9 @@
                         </div></td>
                     <td>
                        
-                        <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
+                        <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
                         <span class="size-text-ex pr-10">-</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-90 inline-block">
+                        <input type="text"  value="" class="form-control border-input height-width-input width-90 inline-block">
             
                     </td>
                 </tr>
@@ -68,7 +68,7 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
-                    <td><input type="password" value="" class="form-control border-input height-width-input">
+                    <td><input type="text" value="" class="form-control border-input height-width-input">
         
                     </td>
                 </tr>

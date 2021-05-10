@@ -36,11 +36,11 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
-                    <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
+                    <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
                         <span class="size-text-ex pr-3">年</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
+                        <input type="text"  value="" class="form-control border-input height-width-input width-40 inline-block">
                         <span class="size-text-ex pr-3">月</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
+                        <input type="text"  value="" class="form-control border-input height-width-input width-40 inline-block">
                         <span class="size-text-ex pr-3">日</span>
                     </td>
                   
@@ -53,9 +53,9 @@
                         </div></td>
                     <td>
                        
-                        <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
+                        <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
                         <span class="size-text-ex pr-10">-</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-90 inline-block">
+                        <input type="text"  value="" class="form-control border-input height-width-input width-90 inline-block">
             
                     </td>
                 </tr>
@@ -66,7 +66,7 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
-                    <td><input type="password" value="" class="form-control border-input height-width-input">
+                    <td><input type="text" value="" class="form-control border-input height-width-input">
         
                     </td>
                 </tr>
@@ -76,7 +76,7 @@
                             <div class="col-sm-9 col-7">構成員</div>
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
-                    <td><input type="password" value="" class="form-control border-input height-width-input width-70 inline-block">
+                    <td><input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
                     <span class="size-text-ex pr-3">名</span></td>
                 </tr>
                 <tr>
