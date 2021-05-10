@@ -123,8 +123,8 @@
                             <td data-id="22">
                                 <div class="row">
                                     <div class="col-sm-7">
-                                       <label class="form-check-label" for="inlineCheckbox1">役職名
-                                            <input class="form-check-input ml-15" type="checkbox" id="inlineCheckbox1" value="option1">
+                                       <label class="form-check-label" for="inlineCheckbox2">役職名
+                                            <input class="form-check-input ml-15" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </label>
                                     </div>
                                 </div>
@@ -203,8 +203,8 @@
                             <td data-id="22">
                                 <div class="row">
                                     <div class="col-sm-7">
-                                        <label class="form-check-label" for="inlineCheckbox1">役職名
-                                            <input class="form-check-input ml-15" type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox3">役職名
+                                            <input class="form-check-input ml-15" type="checkbox" id="inlineCheckbox3" value="option3">
                                         </label>
                                     </div>
                                 </div>
