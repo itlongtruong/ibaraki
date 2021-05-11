@@ -17,7 +17,7 @@
         <div class="rotate"><img src="source/image/rotate.png" alt=""></div>
         </div>
     </div> 
-     <div class="row justify-content-center">     
+     <div class="row justify-content-center pb-2 mb-3">     
         <div class="col-md-7 col-sm-12 heading-section text-center ftco-animate">
             <div class="btn-group btn-register-login">
                 <a href="{{ url('login')}}" class="btn btn-primary">申請はこちら</a>

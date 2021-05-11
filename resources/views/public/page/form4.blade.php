@@ -11,7 +11,6 @@
             <div class="line-form">4．助成対象事業</div>
             <span>以下のフォームに必要事項をご入力ください。</span>
         </div>
-        
     </div>
 
     <div class="row justify-content-center pb-5 mb-3">
@@ -26,7 +25,7 @@
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text" required class="form-control border-input height-width-input">
                             <span class="size-text-ex">例）　〇〇団体</span>
                             </td>
 
@@ -55,7 +54,7 @@
                                 </div></td>
                             <td>
                             
-                            <input type="text" value="" class="form-control border-input height-width-input">
+                            <input type="text" required class="form-control border-input height-width-input">
                     
                             </td>
                         </tr>
@@ -66,7 +65,7 @@
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text" required class="form-control border-input height-width-input">
                 
                             </td>
                         </tr>
@@ -76,7 +75,7 @@
                                     <div class="col-sm-9 col-7">入場者数（予定）</div>
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div></td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
+                            <td><input type="text" required class="form-control border-input height-width-input width-70 inline-block">
                             <span class="size-text-ex pr-3">名</span></td>
                         </tr>
                     </tbody>
@@ -95,7 +94,7 @@
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text" required class="form-control border-input height-width-input">
                             </td>
 
                         </tr>
@@ -106,7 +105,7 @@
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div></td>
                             <td>
-                            <input type="text" value="" class="form-control border-input height-width-input">
+                            <input type="text" required class="form-control border-input height-width-input">
                             </td>
                         
                         </tr>
@@ -116,7 +115,7 @@
                                     <div class="col-sm-9 col-7">助成希望額</div>
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div></td>
-                                <td><input type="text" value="" class="form-control border-input height-width-input width-158 inline-block">
+                                <td><input type="text" required class="form-control border-input height-width-input width-158 inline-block">
                             <span class="size-text-ex pr-3">円</span></td>
                         </tr>
                         <tr>
@@ -127,23 +126,26 @@
                                 </div>
                             </td>
                             <td>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                <label class="form-check-label" for="inlineCheckbox1">有</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                <label class="form-check-label" for="inlineCheckbox2">無</label>
-                            </div>
-
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                <label class="form-check-label" for="inlineCheckbox3">未定</label>
-                            </div>
-
+                                <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    有
+                                </label>
+                                </div>
+                                <div class="form-check-inline">
+                                <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    無
+                                </label>
+                                </div>
+                                <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    未定
+                                </label>
+                                </div>
                             </td>
                         </tr>
-                       
                     </tbody>
                 </table>
             </div>

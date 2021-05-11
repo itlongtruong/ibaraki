@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 heading-section ftco-animate">
             <div class="line-form">3．関係書類送付先住所</div>
             <span>以下のフォームに必要事項をご入力ください。</span>
         </div>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="row justify-content-center pb-5 mb-3">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
         <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-3 table-form-common">
             <tbody>
@@ -26,7 +26,7 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
-                    <td><input type="text" value="" class="form-control border-input height-width-input">
+                    <td><input type="text" required class="form-control border-input height-width-input">
                     <span class="size-text-ex">例）　〇〇団体</span>
                     </td>
 
@@ -38,12 +38,7 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div></td>
                     <td>
-                    <input type="email" value="" class="form-control border-input height-width-input width-70 inline-block">
-                        <span class="size-text-ex pr-3">年</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
-                        <span class="size-text-ex pr-3">月</span>
-                        <input type="email"  value="" class="form-control border-input height-width-input width-40 inline-block">
-                        <span class="size-text-ex pr-3">日</span>
+                    <input type="text" required class="form-control border-input height-width-input">
                     </td>
                   
                 </tr>
@@ -55,10 +50,10 @@
                         </div></td>
                     <td>
                        
-                        <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
+                        <input type="text" required class="form-control border-input height-width-input width-70 inline-block">
                         <span class="size-text-ex pr-10">-</span>
-                        <input type="text"  value="" class="form-control border-input height-width-input width-90 inline-block">
-            
+                        <input type="text"  required class="form-control border-input height-width-input width-90 inline-block"><br >
+                        <span class="size-text-ex pr-3">※半角数字ハイフンなし</span>
                     </td>
                 </tr>
                 <tr>
@@ -68,8 +63,8 @@
                             <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                         </div>
                     </td>
-                    <td><input type="text" value="" class="form-control border-input height-width-input">
-        
+                    <td><input type="text" required class="form-control border-input height-width-input">
+                    <span class="size-text-ex pr-3">※半角数字ハイフンなし</span>
                     </td>
                 </tr>
             </tbody>

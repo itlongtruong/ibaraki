@@ -7,14 +7,14 @@
         </div>
     </div>
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 heading-section ftco-animate">
             <div class="line-form">1．申請者等</div>
             <span>以下のフォームに必要事項をご入力ください。</span>
         </div>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 heading-section ftco-animate">
         <div class="table-responsive col-md-12">
         <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-1 table-form-common">
             <tbody>
@@ -98,10 +98,10 @@
     <div class="row justify-content-center pb-2 mb-3 mt-3">
         <div class="col-md-5 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-common" role="group">
-                <button type="button" class="btn btn-primary">一時保存</button>
+                <button type="submit" class="btn btn-primary">一時保存</button>
             </div>
             <div class="btn-group btn-common" role="group">
-                <button type="button" class="btn btn-danger">次へ</button>
+                <button type="submit" class="btn btn-danger">次へ</button>
             </div>
         </div>
     </div>

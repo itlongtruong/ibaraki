@@ -7,20 +7,20 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-lg-6 col-md-10 col-12 heading-section ftco-animate">
             <div class="line-form">2．連絡者</div>
         </div>
     </div>
     
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-8 heading-section ftco-animate">
+        <div class="col-lg-8 col-md-12 col-12 heading-section ftco-animate">
             <span>※日中連絡が確実に取れる責任者の役職名にチェックをし，詳細を下欄に記入してください。</span>
         </div> 
     </div>
 
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-4 heading-section ftco-animate">
-            <div class="table-responsive col-md-12">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-12 heading-section ftco-animate">
+            <div class="table-responsive">
                 <table id="sort2" class="grid table table-bordered table-sortable table-register">
                     <tbody>
                         <tr>
@@ -30,7 +30,7 @@
                                     <div class="col-sm-5 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text" required class="form-control border-input height-width-input">
                             </td>
                         </tr>
                         <tr>
@@ -45,7 +45,7 @@
                                 </div>
                             </td>
                             <td>
-                                <input type="text" value="" class="form-control border-input height-width-input">
+                                <input type="text" required class="form-control border-input height-width-input">
                             </td>
                         </tr>
                         <tr>
@@ -56,7 +56,7 @@
                                 </div>
                             </td>
                             <td>
-                                <input type="text" value="" class="form-control border-input height-width-input">
+                                <input type="text" required class="form-control border-input height-width-input">
                             </td>
                         </tr>
                         <tr>
@@ -67,9 +67,9 @@
                                 </div>
                             </td>
                             <td>
-                                <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
+                                <input type="text" required class="form-control border-input height-width-input width-70 inline-block">
                                 <span class="size-text-ex pr-10">-</span>
-                                <input type="text"  value="" class="form-control border-input height-width-input width-88 inline-block">
+                                <input type="text"  required class="form-control border-input height-width-input width-88 inline-block">
                             </td>
                         </tr>
                         <tr>
@@ -79,8 +79,7 @@
                                     <div class="col-sm-5 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
-                                <span class="size-text-ex">※半角数字ハイフンなし</span>
+                            <td><input type="text" required class="form-control border-input height-width-input">
                             </td>
                         </tr>
                         <tr>
@@ -89,7 +88,8 @@
                                     <div class="col-sm-7">電話番号</div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text"  class="form-control border-input height-width-input">
+                            <span class="size-text-ex">※半角数字ハイフンなし</span>
                             </td>
                         </tr>
                         <tr>
@@ -98,7 +98,7 @@
                                     <div class="col-sm-7">職業</div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <td><input type="text"  class="form-control border-input height-width-input">
                             </td>
                         </tr>
                     </tbody>
@@ -106,7 +106,7 @@
             </div>
         </div>
         
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-12 heading-section ftco-animate">
             <div class="table-responsive col-md-12">
                 <table id="sort2" class="grid table table-bordered table-sortable table-register">
                     <tbody>
@@ -162,7 +162,6 @@
                                 </div>
                             </td>
                             <td><input type="text" value="" class="form-control border-input height-width-input inline-block">
-                                <span class="size-text-ex pr-3">※半角数字ハイフンなし</span>
                             </td>
                         </tr>
                         <tr>
@@ -171,7 +170,8 @@
                                     <div class="col-sm-7">電話番号</div>
                                 </div>
                             </td>
-                            <td><input type="text" value="" class="form-control border-input height-width-input inline-block">
+                            <td><input type="text" value="" class="form-control border-input height-width-input inline-block"><br >
+                            <span class="size-text-ex">※半角数字ハイフンなし</span>
                         </tr>
                         <tr>
                             <td data-id="77">
@@ -186,7 +186,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 heading-section ftco-animate">
+        <div class="col-lg-6 col-md-6  col-sm-12 col-xl-4 col-12 heading-section ftco-animate">
             <div class="table-responsive col-md-12">
                 <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-2">
                     <tbody>
@@ -242,7 +242,7 @@
                                 </div>
                             </td>
                             <td><input type="text" value="" class="form-control border-input height-width-input inline-block">
-                            <span class="size-text-ex">※半角数字ハイフンなし</span></td>
+                            </td>
                         </tr>
                         <tr>
                             <td data-id="66">
@@ -251,6 +251,7 @@
                                 </div>
                             </td>
                             <td><input type="text" value="" class="form-control border-input height-width-input">
+                            <span class="size-text-ex">※半角数字ハイフンなし</span>
                         </tr>
                         <tr>
                             <td data-id="77">
@@ -267,7 +268,7 @@
     </div>
 
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-6 col-12 heading-section text-center ftco-animate" class="btn-login">
+        <div class="col-md-7 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-common" role="group">
                 <button type="button" class="btn btn-secondary">戻る</button>
             </div>

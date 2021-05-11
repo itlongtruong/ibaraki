@@ -14,22 +14,22 @@
     </div>
 
     <div class="row justify-content-center pb-5 mb-3">
-        <div class="col-md-11 heading-section ftco-animate">
-        <div class="table-responsive col-md-12">
+        <div class="col-xl-11 col-lg-10 col-md-11 col-sm-12 col-12 heading-section ftco-animate">
+        <div class="table-responsive">
         <table id="sort2" class="grid table table-bordered table-sortable table-register table-form-5">
             <tbody>
                 <tr>
                     <td data-id="11">
                         <div class="row">
-                           <div class="col-sm-9 col-7">（１）助成対象事業の実施計画（付表 1）
+                           <div class="col-sm-9 col-9">（１）助成対象事業の実施計画（付表 1）
                                <span class="size-text-ex">※ワード形式のみ</span>
                            </div>
-                           <div class="col-sm-3 col-5"><span class="required">必須</span></div>
+                           <div class="col-sm-3 col-3"><span class="required">必須</span></div>
                         </div>
                     </td>
                     <td>
                     <div class="attachment">
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label><input type="file" required name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
                     </div>
                     </td>
@@ -37,64 +37,64 @@
                 </tr>
                 <tr>
                     <td data-id="22"> <div class="row">
-                            <div class="col-sm-9 col-7">（２）助成対象事業収支予算書（付表 2）
+                            <div class="col-sm-9 col-9">（２）助成対象事業収支予算書（付表 2）
                             <span class="size-text-ex">※エクセル形式のみ</span>
                             </div>
-                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-3"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label><input type="file" required name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
                     </div>
                     </td>
                 </tr>
                 <tr>
                     <td data-id="33"> <div class="row">
-                            <div class="col-sm-9 col-7">（３）過去の決算書
+                            <div class="col-sm-9 col-9">（３）過去の決算書
                             <span class="size-text-ex">※PDF 形式のみ</span>
                             </div>
-                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-3"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label><input type="file" required name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
                     </div>
                     </td>
                 </tr>
                 <tr>
                     <td data-id="44"> <div class="row">
-                            <div class="col-sm-9 col-7">（４）団体の会則及び会員名簿
+                            <div class="col-sm-9 col-9">（４）団体の会則及び会員名簿
                             <span class="size-text-ex">※PDF 形式のみ</span>
                             </div>
-                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-3"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label><input type="file" required name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
                     </div>
                     </td>
                 </tr>
                 <tr>
                     <td data-id="55"> <div class="row">
-                            <div class="col-sm-9 col-7">（５）その他の参考書類
+                            <div class="col-sm-9 col-9">（５）その他の参考書類
                             <span class="size-text-ex">※JPG 形式のみ</span>
                             </div>
-                            <div class="col-sm-3 col-5"><span class="required">必須</span></div>
+                            <div class="col-sm-3 col-3"><span class="required">必須</span></div>
                         </div></td>
                     <td>
                     <div class="attachment">
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label class="mb-file"><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label class="mb-file"><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label class="mb-file"><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label class="mb-file"><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
-                        <label><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
+                        <label class="mb-file"><input type="file" name="ファイル添付" class="fileinput">ファイルを添付する</label>
                         <span class="filename"></span>
                     </div>
                     </td>
@@ -106,7 +106,7 @@
     </div>
     
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-6 heading-section text-center ftco-animate" class="btn-login">
+        <div class="col-md-7 heading-section text-center ftco-animate" class="btn-login">
             <div class="btn-group btn-common" role="group">
                 <button type="button" class="btn btn-secondary">戻る</button>
             </div>

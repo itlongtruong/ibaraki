@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\UserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,8 @@ use App\Http\Controllers\UserController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+//user
 
 Route::get('/', [PageController::class, 'getIndex']);
 
@@ -42,3 +46,17 @@ Route::get('/form5', [UserController::class, 'getForm5']);
 Route::get('/form6', [UserController::class, 'getForm6']);
 
 Route::get('/form7', [UserController::class, 'getForm7']);
+
+//admin
+
+Route::get('/admin/login', [AdminController::class, 'getLoginAdmin']);
+
+Route::post('/admin/login', [AdminController::class, 'postLoginAdmin']);
+
+Route::get('/admin/reception', [AdminController::class, 'getReception']);
+
+Route::get('/admin/reception/detail', [AdminController::class, 'getDetail']);
+
+Route::get('/admin/logout', [AdminController::class, 'logout']);
+
+

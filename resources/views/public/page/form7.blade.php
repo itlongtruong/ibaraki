@@ -7,12 +7,12 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-md-5 heading-section ftco-animate">
+        <div class="col-lg-5 col-md-7 col-sm-8 heading-section ftco-animate">
             <div class="line-form">7．申請内容確認</div>
         </div>
     </div>
     <div class="row justify-content-center pb-2 mb-3">
-        <div class="col-md-6 heading-section ftco-animate">
+        <div class="col-lg-6 col-md-8 col-sm-10 heading-section ftco-animate">
             <div id="form-confirm">
             <p>入力内容表示</p>   
             </div>
