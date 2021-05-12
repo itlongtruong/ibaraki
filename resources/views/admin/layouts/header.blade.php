@@ -1,8 +1,8 @@
 <div class="wrap">
-	<div class="container-fluid">
+	<div class="container-fluid menu-line">
 		<div class="row justify-content-between">
 			<div class="col-md-6 col-sm-12 d-flex align-items-center">
-				<a class="navbar-brand" href="{{ asset ('/admin/login')}}"><img src="../source/image/icons/logo-2.png" alt=""></a>
+				<a class="navbar-brand" href="{{ asset ('/admin/login')}}"><img src="{{url('source/image/icons/logo-2.png')}}" alt=""></a>
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<div class="row">
