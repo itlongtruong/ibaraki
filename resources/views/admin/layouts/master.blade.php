@@ -13,14 +13,16 @@
 <body>
 @include('admin.layouts.header')
 <div class="content">
+<div class="container-fluid">
     <div class="row">
             @include('admin.layouts.sidebar')
             @yield('content')
     </div>
+</div>    
 </div>
 
 @include('admin.layouts.footer')
 <script src="{{url('source/js/bootstrap.min.js')}}"></script>
-<script src="{{url('source/js/admin.js')}}"></script>     
+<script src="{{url('source/js/admin.js')}}"></script>
 </body>
 </html>

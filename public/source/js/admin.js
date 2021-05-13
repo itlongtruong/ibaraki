@@ -1,14 +1,14 @@
 $(function(){
 
-    $('#slide-submenu').on('click',function() {			        
+	$('#slide-submenu').on('click',function() {			        
         $(this).closest('.list-group').fadeOut('slide',function(){
-            $('.mini-submenu').fadeIn();	
+        	$('.list-group').fadeIn();	
         });
         
       });
-    
-    $('.mini-submenu').on('click',function(){		
+
+	$('.bars-btn').on('click',function(){		
         $(this).next('.list-group').toggle('slide');
-        $('.mini-submenu').hide();
-    })
+        $('.list-group').hide();
+	})
 })
