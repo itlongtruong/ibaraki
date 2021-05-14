@@ -1,26 +1,20 @@
 <div class="col-xl-2 col-lg-3 col-md-3">
-    <div class="container-fluid">
-        <div class="row justify-content-center mt-3">
-            <div id="slide-submenu"> 
-                <div class="bars-btn">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
-                </div> 
-                <div class="list-group">
-                    <a href="{{ asset ('/admin/reception')}}" class="list-group-item active">
-                        メニュー
-                    </a>
-                    <a href="{{ asset ('/admin/reception/detail')}}" class="list-group-item">
-                        申請内容一覧
-                    </a>
-                    <a href="{{ asset ('/admin/logout')}}" class="list-group-item">
-                        ログアウト
-                    </a>
-                </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-2" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+            <div class="list-group">
+            <a class="list-group-item active" class="nav-link" href="{{ asset ('/admin/reception')}}">メニュー</a>
+            <a class="list-group-item" class="nav-link" href="{{ asset ('/admin/reception/detail')}}">申請内容一覧</a>
+            <a class="list-group-item" class="nav-link" href="{{ asset ('/admin/logout')}}">ログアウト</a>
             </div>
+      </div>
     </div>
+  </div>
+</nav>
 </div>
-</div>
-
-
 
    

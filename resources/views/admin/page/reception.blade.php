@@ -25,67 +25,65 @@
         </div>
 
         <div class="row justify-content-center pb-2 mb-3">
-            <div class="heading-section ftco-animate">
-            <div class="table-responsive">
-            <div style="overflow-x:auto;">
+        <div class="heading-section ftco-animate">
+             <div class="table-responsive">
                 <table class="table table-bordered">
                 <thead>
                     <tr>
                     <th scope="col">No</th>
-                    <th scope="col">団体名</th>
-                    <th scope="col">発足年月日</th>
-                    <th scope="col">郵便番号</th>
-                    <th class="td_size" scope="col">住所</th>
-                    <th scope="col">電話番号</th>
-                    <th scope="col">ステータス</th>
-                    <th scope="col">詳細</th>
+                    <th scope="col" nowrap>団体名</th>
+                    <th scope="col" nowrap>発足年月日</th>
+                    <th scope="col" nowrap>郵便番号</th>
+                    <th class="td_size" scope="col" nowrap>住所</th>
+                    <th scope="col" nowrap>電話番号</th>
+                    <th scope="col" nowrap>ステータス</th>
+                    <th scope="col" nowrap>詳細</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                     <th scope="row">1</th>
-                    <td>test</td>
-                    <td>yyyy/mm/dd</td>
-                    <td>000-0000</td>
-                    <td  class="td_size">testtest</td>
-                    <td>00-000-000</td>
-                    <td>test</td>
-                    <td class="link-detail"><a href="#">詳細</a></td>
+                    <td nowrap>test</td>
+                    <td nowrap>yyyy/mm/dd</td>
+                    <td nowrap>000-0000</td>
+                    <td  class="td_size" nowrap>testtest</td>
+                    <td nowrap>00-000-000</td>
+                    <td nowrap>test</td>
+                    <td class="link-detail" nowrap><a href="#">詳細</a></td>
                     </tr>
                     <tr>
                     <th scope="row">2</th>
-                    <td>test</td>
-                    <td>yyyy/mm/dd</td>
-                    <td>000-0000</td>
-                    <td>testtest</td>
-                    <td>00-000-000</td>
-                    <td>test</td>
-                    <td class="link-detail"><a href="#">詳細</a></td>
+                    <td nowrap>test</td>
+                    <td nowrap>yyyy/mm/dd</td>
+                    <td nowrap>000-0000</td>
+                    <td nowrap>testtest</td>
+                    <td nowrap>00-000-000</td>
+                    <td nowrap>test</td>
+                    <td class="link-detail" nowrap><a href="#">詳細</a></td>
                     </tr>
                     <tr>
                     <th scope="row">3</th>
-                    <td>test</td>
-                    <td>yyyy/mm/dd</td>
-                    <td>000-0000</td>
-                    <td >testtest</td>
-                    <td>00-000-000</td>
-                    <td>test</td>
-                    <td class="link-detail"><a href="#">詳細</a></td>
+                    <td nowrap>test</td>
+                    <td nowrap>yyyy/mm/dd</td>
+                    <td nowrap>000-0000</td>
+                    <td nowrap>testtest</td>
+                    <td nowrap>00-000-000</td>
+                    <td nowrap>test</td>
+                    <td class="link-detail" nowrap><a href="#">詳細</a></td>
                     </tr>
                     <tr>
                     <th scope="row">4</th>
-                    <td>test</td>
-                    <td>yyyy/mm/dd</td>
-                    <td>000-0000</td>
-                    <td >testtest</td>
-                    <td>00-000-000</td>
-                    <td>test</td>
-                    <td class="link-detail"><a href="#">詳細</a></td>
+                    <td nowrap>test</td>
+                    <td nowrap>yyyy/mm/dd</td>
+                    <td nowrap>000-0000</td>
+                    <td nowrap>testtest</td>
+                    <td nowrap>00-000-000</td>
+                    <td nowrap>test</td>
+                    <td class="link-detail" nowrap><a href="#">詳細</a></td>
                     </tr>
                 </tbody>
                 </table>
-                </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>

@@ -23,6 +23,5 @@
 
 @include('admin.layouts.footer')
 <script src="{{url('source/js/bootstrap.min.js')}}"></script>
-<script src="{{url('source/js/admin.js')}}"></script>
 </body>
 </html>
