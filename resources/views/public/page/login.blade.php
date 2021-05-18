@@ -28,10 +28,10 @@
     <form action="{{ asset ('/login')}}" method="post">
      @csrf
         <div class="row justify-content-center">
-            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 col-10 heading-section ftco-animate">
+            <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 col-10 heading-section ftco-animate">
                 <div id="form-login">
                     <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-4 col-form-label">ID</label>
+                        <label for="staticEmail" class="col-sm-4 col-form-label">メールアドレス（ID）</label>
                         <div class="col-sm-8">
                         <input type="text" required class="form-control" name="id">
                         </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="row justify-content-center pb-1 mb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
-                <p class="regis regis-forgot"><a href="">ID・パスワードを忘れた方はこちら</a></p>
+                <p class="regis regis-forgot"><a href="{{ url('resetpw')}}">ID・パスワードを忘れた方はこちら</a></p>
                 </div>
             </div>
         </div>    

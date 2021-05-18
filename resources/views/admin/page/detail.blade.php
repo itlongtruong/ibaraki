@@ -15,6 +15,9 @@
                 <div class="btn-group btn-common" role="group">
                     <button type="button" class="btn btn-danger">却下</button>
                 </div>
+                <div class="btn-group btn-common" role="group">
+                    <button type="submit" class="btn btn-outline-primary">キャンセル</button>
+                </div>
             </div>
         </div> 
     </div>

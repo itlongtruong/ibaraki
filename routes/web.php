@@ -47,6 +47,10 @@ Route::get('/form6', [UserController::class, 'getForm6']);
 
 Route::get('/form7', [UserController::class, 'getForm7']);
 
+Route::get('/resetpw', [UserController::class, 'getResetPW']);
+
+Route::get('/newpw', [UserController::class, 'getNewPW']);
+
 //admin
 
 Route::get('/admin/login', [AdminController::class, 'getLoginAdmin']);

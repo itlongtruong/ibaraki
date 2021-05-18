@@ -74,4 +74,15 @@ class UserController extends Controller
     public function getForm7(){
         return view('public.page.form7');
     }
+
+
+    public function getResetPW()
+    {
+        return view('public.page.resetpw');
+    }
+
+    public function getNewPW()
+    {
+        return view('public.page.newpw');
+    }
 }
