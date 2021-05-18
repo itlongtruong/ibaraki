@@ -50,9 +50,7 @@
                         </div></td>
                     <td>
                        
-                        <input type="text" required class="form-control border-input height-width-input width-70 inline-block">
-                        <span class="size-text-ex pr-10">-</span>
-                        <input type="text"  required class="form-control border-input height-width-input width-90 inline-block"><br >
+                    <input type="text" required class="form-control border-input height-width-input">
                         <span class="size-text-ex pr-3">※半角数字ハイフンなし</span>
                     </td>
                 </tr>

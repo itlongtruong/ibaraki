@@ -27,7 +27,7 @@
         <div class="row justify-content-center pb-2 mb-3">
         <div class="heading-section ftco-animate">
              <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered table-reception">
                 <thead>
                     <tr>
                     <th scope="col">No</th>

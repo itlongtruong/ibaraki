@@ -68,7 +68,7 @@
                             </td>
                             <td>
                                 <input type="text" required class="form-control border-input height-width-input width-70 inline-block">
-                                <span class="size-text-ex pr-10">-</span>
+                                <span class="size-text-ex pr-8">-</span>
                                 <input type="text"  required class="form-control border-input height-width-input width-88 inline-block">
                             </td>
                         </tr>
@@ -151,7 +151,7 @@
                             </td>
                             <td>
                                 <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
-                                <span class="size-text-ex pr-10">-</span>
+                                <span class="size-text-ex pr-8">-</span>
                                 <input type="text"  value="" class="form-control border-input height-width-input width-88 inline-block">
                             </td>
                         </tr>
@@ -231,7 +231,7 @@
                             </td>
                             <td>
                                 <input type="text" value="" class="form-control border-input height-width-input width-70 inline-block">
-                                <span class="size-text-ex pr-10">-</span>
+                                <span class="size-text-ex pr-8">-</span>
                                 <input type="text"  value="" class="form-control border-input height-width-input width-88 inline-block">
                             </td>
                         </tr>

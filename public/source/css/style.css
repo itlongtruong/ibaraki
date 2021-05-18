@@ -181,6 +181,10 @@ border: 1px solid black;
 .pr-10{
     padding-right: 10px;
 }
+
+.pr-8{
+    padding-right: 8px;
+}
 .pr-3{
     padding-left: 3px;
     padding-right: 3px;
@@ -294,6 +298,14 @@ border: 1px solid black;
     }
 }
 
+@media only screen and (max-width: 992px){
+    .ml-15{
+        margin-left: 5px;
+     }
+}
+
+
+
 
 @media only screen and (max-width: 768px){
     .navbar-brand{
@@ -339,6 +351,7 @@ border: 1px solid black;
     .mb-file{
         margin-bottom: 10px;
     }
+    
 }
 
 @media only screen and (max-width: 576px){
@@ -386,10 +399,6 @@ border: 1px solid black;
       color: #FCCA29;
       text-decoration: none;
   }
-.table-bordered>:not(caption)>*>* {
-    border-width: 0 1px;
-    text-align: center;
-}
 
 .td_size{
     width: 25%;
@@ -405,4 +414,8 @@ border: 1px solid black;
     padding: 4px 20px;
     width: 110px;
     font-weight: 600;
+}
+
+.table-reception{
+    text-align: center;
 }
