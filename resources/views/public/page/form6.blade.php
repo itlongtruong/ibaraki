@@ -19,31 +19,31 @@
                 <table id="sort2" class="grid table table-bordered table-sortable table-form-6">
                     <tbody>
                         <tr>
-                            <td data-id="11"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td data-id="11"><input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></td>
                             <td>
                                 活動成果発表事業
                             </td>
                         </tr>
                         <tr>
-                            <td data-id="22"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td data-id="22"><input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"></td>
                             <td>
                                 各種大会等参加事業
                             </td>
                         </tr>
                         <tr>
-                            <td data-id="33"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td data-id="33"><input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"></td>
                             <td>
                                 文化活動団体備品整備事業
                             </td>
                         </tr>
                         <tr>
-                            <td data-id="44"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td data-id="44"><input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"></td>
                             <td>
                                 刊行物発刊事業
                             </td>
                         </tr>
                         <tr>
-                            <td data-id="55"><input class="form-check-input border-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td data-id="55"><input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5"></td>
                             <td>
                                 その他特に必要と認める事業
                             </td>

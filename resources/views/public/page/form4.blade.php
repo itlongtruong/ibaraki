@@ -94,8 +94,8 @@
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div>
                             </td>
-                            <td><input type="text" required class="form-control border-input height-width-input">
-                            </td>
+                            <td><input type="text" required class="form-control border-input height-width-input width-158 inline-block">
+                            <span class="size-text-ex pr-3">円</span></td>
 
                         </tr>
                         <tr>
@@ -104,9 +104,8 @@
                                     <div class="col-sm-9 col-7">助成対象経費</div>
                                     <div class="col-sm-3 col-5"><span class="required">必須</span></div>
                                 </div></td>
-                            <td>
-                            <input type="text" required class="form-control border-input height-width-input">
-                            </td>
+                                <td><input type="text" required class="form-control border-input height-width-input width-158 inline-block">
+                            <span class="size-text-ex pr-3">円</span></td>
                         
                         </tr>
                         <tr>
@@ -127,20 +126,20 @@
                             </td>
                             <td>
                                 <div class="form-check-inline">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     有
                                 </label>
                                 </div>
                                 <div class="form-check-inline">
-                                <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <input class="form-check-input border-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     無
                                 </label>
                                 </div>
                                 <div class="form-check-inline">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input border-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
                                     未定
                                 </label>
                                 </div>
